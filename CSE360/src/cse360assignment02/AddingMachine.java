@@ -7,20 +7,20 @@ public class AddingMachine {
     total = 0;  // not needed - included for clarity
   }
   
-  public int getTotal () {
+  public int getTotal () {   // Method Used to get total so far
     return 0;
   }
   
-  public void add (int value) {
+  public void add (int value) {   // Adding to the total value
   }
 
-  public void subtract (int value) {
+  public void subtract (int value) {      // Subtracting from the total value
   }
 
-  public String toString () {
+  public String toString () {  		//Printing total and changes madoe to total
     return "";
   }
 
-  public void clear() {
+  public void clear() {				// Clears the AddingMachine
   }
 }
